@@ -96,7 +96,7 @@ public class authUser extends HttpServlet
             
             S.setAttribute("validado", "ok");
             
-            response.sendRedirect("/calculaParcelas");
+            response.sendRedirect("calcpage.html");
          }
          else /// VOLTAR AO FORMULARIO
          {
