@@ -91,7 +91,7 @@ public class authUser extends HttpServlet
         
         if(isValidationOk)
          {
-            /// CALCULAR O IMC
+            /// VAI PARA A PAGINA ONDE SÃO INSERIDAS AS INFORMAÇÕES
             HttpSession S = request.getSession(true);
             
             S.setAttribute("validado", "ok");
